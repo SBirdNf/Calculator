@@ -12,7 +12,9 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top">
+        android:layout_gravity="top"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
 
         <EditText
             android:id="@+id/main_et_result"
@@ -204,25 +206,43 @@
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:rowCount="1"
-        android:columnCount="3"
+        android:columnCount="4"
         android:layout_gravity="center|bottom">
 
         <Button
-            android:id="@+id/main_btn_one"
-            android:layout_width="120dp"
+            android:id="@+id/main_btn_chang"
+            android:layout_width="100dp"
             android:layout_height="60dp"
+            android:text="长度"
+            android:textSize="30dp"
+            android:background="#ECECEC"
             />
 
         <Button
-            android:id="@+id/main_btn_two"
-            android:layout_width="120dp"
+            android:id="@+id/main_btn_ti"
+            android:layout_width="100dp"
             android:layout_height="60dp"
+            android:text="体积"
+            android:textSize="30dp"
+            android:background="#ECECEB"
             />
 
         <Button
-            android:id="@+id/main_btn_three"
-            android:layout_width="120dp"
+        android:id="@+id/main_btn_jin"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="进制"
+        android:textSize="30dp"
+            android:background="#ECECEA"
+        />
+
+        <Button
+            android:id="@+id/main_btn_bang"
+            android:layout_width="60dp"
             android:layout_height="60dp"
+            android:text="?"
+            android:textSize="30dp"
+            android:background="#ECECE9"
             />
 
     </GridLayout>

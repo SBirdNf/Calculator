@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="431fca16" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,7 +29,20 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Class" />
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ihcTd0wasmaUZzSnsDdnP91bSv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,12 +51,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout-land" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.calculator" />
+    </key>
+    <key name="android.template.413566177">
+      <recent name="com.example.calculator" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Calculator\app\src\main\res\layout-port" />
       <recent name="D:\Calculator\app\src\main\res\layout-land" />
+    </key>
+    <key name="android.template.1651987568">
+      <recent name="com.example.calculator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Calculator\app\src\main\res\layout-port" />
@@ -127,37 +150,49 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="734" y="184" key="#com.intellij.ide.util.MemberChooser/0.0.1536.920@0.0.1536.920" timestamp="1602402351428" />
-    <state x="132" y="423" key="AndroidCreateResourceDirectoryDialog" timestamp="1603574845091">
+    <state x="499" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604776713857">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="132" y="423" key="AndroidCreateResourceDirectoryDialog/0.0.1536.920@0.0.1536.920" timestamp="1603574845091" />
-    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1602402391024">
+    <state x="499" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.920@0.0.1536.920" timestamp="1604776713857" />
+    <state x="132" y="390" key="AndroidCreateResourceDirectoryDialog" timestamp="1603577484774">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="549" y="215" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1602402391024" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1603573025242">
+    <state x="132" y="390" key="AndroidCreateResourceDirectoryDialog/0.0.1536.920@0.0.1536.920" timestamp="1603577484774" />
+    <state x="349" y="215" key="AndroidCreateResourceFileDialog" timestamp="1604263983329">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1603573025242" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1603573025241">
+    <state x="349" y="215" key="AndroidCreateResourceFileDialog/0.0.1536.920@0.0.1536.920" timestamp="1604263983329" />
+    <state x="622" y="273" key="AndroidCreateXmlResourceDialog" timestamp="1604776623897">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1603573025241" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1603573025241">
+    <state x="622" y="273" key="AndroidCreateXmlResourceDialog/0.0.1536.920@0.0.1536.920" timestamp="1604776623897" />
+    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1605209261785">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1603573025241" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1603573025241">
+    <state x="549" y="215" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1605209261785" />
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1604866683836">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1603573025241" />
-    <state x="449" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1602363281800">
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1604866683836" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1604866683836">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="449" y="284" key="com.intellij.ide.util.TipDialog/0.0.1536.920@0.0.1536.920" timestamp="1602363281800" />
-    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1602364572369">
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1604866683836" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1604866683835">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1602364572369" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1604866683835" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1604866683836">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1604866683836" />
+    <state x="449" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1605209237450">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="449" y="284" key="com.intellij.ide.util.TipDialog/0.0.1536.920@0.0.1536.920" timestamp="1605209237450" />
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1604317810266">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1604317810266" />
   </component>
 </project>

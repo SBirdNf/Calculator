@@ -2,12 +2,18 @@ package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
+import android.view.InputDevice;
 import android.view.View;
+import android.view.inputmethod.InputMethod;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     //输入框
@@ -34,7 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     boolean clear_flag;//清空标识
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +63,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         View main_btn_equal = findViewById(R.id.main_btn_equal);
         View main_btn_del = findViewById(R.id.main_btn_del);
         View main_btn_point = findViewById(R.id.main_btn_point);
+        //跳转按钮
+        View main_btn_chang = findViewById(R.id.main_btn_chang);
+        View main_btn_ti = findViewById(R.id.main_btn_ti);
+        View main_btn_jin = findViewById(R.id.main_btn_jin);
+        View main_btn_bang = findViewById(R.id.main_btn_bang);
 
         editText = (EditText) findViewById(R.id.main_et_result);//结果集
 
@@ -80,6 +90,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         main_btn_equal.setOnClickListener(this);
         main_btn_del.setOnClickListener(this);
         main_btn_point.setOnClickListener(this);
+        //跳转
+        main_btn_jin.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this,SystemActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        main_btn_bang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplication(),"点击使用计算器，错误代码111",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+
+
 
     }
 
@@ -129,6 +158,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 getResult();
                 break;
         }
+
+
 
     }
 
@@ -202,4 +233,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
     }
+
 }

@@ -17,23 +17,23 @@
         <EditText
             android:id="@+id/main_et_result"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             />
     </GridLayout>
 
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rowCount="5"
-        android:columnCount="4"
+        android:rowCount="3"
+        android:columnCount="6"
         android:background="#fff"
         android:layout_gravity="center|top"
         >
 
         <Button
             android:id="@+id/main_btn1"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="1"
             android:textSize="45dp"
@@ -41,8 +41,8 @@
 
         <Button
             android:id="@+id/main_btn2"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="2"
             android:textSize="45dp"
@@ -50,91 +50,17 @@
 
         <Button
             android:id="@+id/main_btn3"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="3"
             android:textSize="45dp"
             />
 
         <Button
-            android:id="@+id/main_btn_div"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="÷"
-            android:textSize="45dp"
-            android:textColor="#FB8C00"
-            />
-
-        <Button
-            android:id="@+id/main_btn4"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="4"
-            android:textSize="45dp"
-            />
-
-        <Button
-            android:id="@+id/main_btn5"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="5"
-            android:textSize="45dp"
-            />
-
-        <Button
-            android:id="@+id/main_btn6"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="6"
-            android:textSize="45dp"
-            />
-
-        <Button
-            android:id="@+id/main_btn_mul"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="×"
-            android:textSize="45dp"
-            android:textColor="#FB8C00"
-            />
-
-        <Button
-            android:id="@+id/main_btn7"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="7"
-            android:textSize="45dp"
-            />
-
-        <Button
-            android:id="@+id/main_btn8"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="8"
-            android:textSize="45dp"
-            />
-
-        <Button
-            android:id="@+id/main_btn9"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:background="#FFF"
-            android:text="9"
-            android:textSize="45dp"
-            />
-
-        <Button
             android:id="@+id/main_btn_del"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="C"
             android:textSize="45dp"
@@ -142,55 +68,137 @@
             />
 
         <Button
+            android:id="@+id/main_btn_plus"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="+"
+            android:textSize="45dp"
+            android:textColor="#D81B60"
+            />
+
+        <Button
             android:id="@+id/main_btn_sub"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="-"
             android:textSize="45dp"
-            android:textColor="#FB8C00"
+            android:textColor="#D81B60"
+            />
+
+
+
+        <Button
+            android:id="@+id/main_btn4"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="4"
+            android:textSize="45dp"
+            />
+
+        <Button
+            android:id="@+id/main_btn5"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="5"
+            android:textSize="45dp"
+            />
+
+        <Button
+            android:id="@+id/main_btn6"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="6"
+            android:textSize="45dp"
             />
 
         <Button
             android:id="@+id/main_btn0"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="0"
             android:textSize="45dp"
             />
 
         <Button
+            android:id="@+id/main_btn_mul"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="×"
+            android:textSize="45dp"
+            android:textColor="#D81B60"
+            />
+
+        <Button
+            android:id="@+id/main_btn_div"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="÷"
+            android:textSize="45dp"
+            android:textColor="#D81B60"
+            />
+
+        <Button
+            android:id="@+id/main_btn7"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="7"
+            android:textSize="45dp"
+            />
+
+        <Button
+            android:id="@+id/main_btn8"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="8"
+            android:textSize="45dp"
+            />
+
+        <Button
+            android:id="@+id/main_btn9"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="#FFF"
+            android:text="9"
+            android:textSize="45dp"
+            />
+
+
+
+
+
+
+
+        <Button
             android:id="@+id/main_btn_point"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="."
             android:textSize="45dp"
             android:textColor="#FB8C00"
             />
 
-        <Button
-            android:id="@+id/main_btn_plus"
-            android:layout_width="90dp"
-            android:layout_height="180dp"
-            android:background="#FFF"
-            android:text="+"
-            android:textSize="45dp"
-            android:textColor="#FB8C00"
-            android:layout_rowSpan="2"
-            android:layout_gravity="fill_vertical"
-            />
+
 
         <Button
             android:id="@+id/main_btn_equal"
-            android:layout_width="270dp"
-            android:layout_height="90dp"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
             android:background="#FFF"
             android:text="="
-            android:textSize="60dp"
+            android:textSize="45dp"
             android:textColor="#D81B60"
-            android:layout_columnSpan="3"
+            android:layout_columnSpan="2"
             android:layout_gravity="fill_horizontal"
             />
 
@@ -202,27 +210,45 @@
 
     <GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:rowCount="1"
-        android:columnCount="3"
+        android:columnCount="4"
         android:layout_gravity="center|bottom">
 
         <Button
-            android:id="@+id/main_btn_one"
-            android:layout_width="120dp"
+            android:id="@+id/main_btn_chang"
+            android:layout_width="100dp"
             android:layout_height="60dp"
+            android:text="长度"
+            android:textSize="30dp"
+            android:background="#ECECEC"
             />
 
         <Button
-            android:id="@+id/main_btn_two"
-            android:layout_width="120dp"
+            android:id="@+id/main_btn_ti"
+            android:layout_width="100dp"
             android:layout_height="60dp"
+            android:text="体积"
+            android:textSize="30dp"
+            android:background="#ECECEB"
             />
 
         <Button
-            android:id="@+id/main_btn_three"
-            android:layout_width="120dp"
+            android:id="@+id/main_btn_jin"
+            android:layout_width="100dp"
             android:layout_height="60dp"
+            android:text="进制"
+            android:textSize="30dp"
+            android:background="#ECECEA"
+            />
+
+        <Button
+            android:id="@+id/main_btn_bang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="?"
+            android:textSize="30dp"
+            android:background="#ECECE9"
             />
 
     </GridLayout>
